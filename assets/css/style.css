@@ -395,7 +395,7 @@ opacity: 0;
 }
 .image-8 img{
     object-fit: cover;
-    max-width: 70%;
+    max-width: 100%;
 }
 .image-8._active{
     opacity: 1;
@@ -404,10 +404,9 @@ opacity: 0;
 }
 .main-title.pr{
     position: relative;
-    text-align: center;
+    width: 66%;
     bottom: 250px;
     z-index: 15;
-    line-height:20px;
 }
 
 @media (max-width:1200px){
