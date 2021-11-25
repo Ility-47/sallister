@@ -407,7 +407,7 @@ opacity: 0;
     text-align: center;
     bottom: 250px;
     z-index: 15;
-    line-heigh:20px;
+    line-height:20px;
 }
 
 @media (max-width:1200px){
