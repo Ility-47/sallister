@@ -39,6 +39,7 @@
 }
 body{
     background: linear-gradient(0deg, rgba(0, 0, 0, 0.51), rgba(0, 0, 0, 0.51)), linear-gradient(0deg, #232222, #232222);
+    overflow-x:hidden:
 }
 .container{
     margin: 0 auto;
