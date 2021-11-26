@@ -442,6 +442,7 @@ opacity: 0;
     .image-5 img{padding-top: 250px;}
     .image-6{padding: 100px 0 300px 0;}
     .project{padding: 250px 0 90px 0;}
+    .main-title.pr{font-size:100px;}
 }
 
 @media (max-width:540px){
@@ -457,4 +458,5 @@ opacity: 0;
     .image-5 img{padding-top: 150px;}
     .image-6{padding: 70px 0 150px 0;}
     .project{padding: 100px 0 50px;}
+    .main-title.pr{font-size:50px;}
 }
