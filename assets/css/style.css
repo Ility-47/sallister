@@ -247,7 +247,7 @@ opacity: 0;
 .image-1 img{
     padding: 150px 0 242px 0;
     object-fit: cover;
-    max-width: 81%;
+    width: 81%;
 }
 .image-1._active{
     opacity: 1;
