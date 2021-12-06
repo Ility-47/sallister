@@ -83,3 +83,4 @@ function spawn(){
     };
 };
 spawn();
+alert("апчихба") ;
