@@ -82,5 +82,5 @@ function spawn(){
         snowball__animation3.appendChild(snowball3);
     };
 };
-spawn();
+//spawn();
 
