@@ -52,7 +52,7 @@ var scrollHeight = Math.max(
 
 function spawn(){
     //first ball
-    for (i = snow1; i < 300; i++) {
+    for (i = snow1; i < 200; i++) {
         const snowball1 = document.createElement('div');
         snowball1.classList.add('snow1');
         snowball1.style.left = randomInteger(5, window.innerWidth - 50) + 'px';
@@ -62,7 +62,7 @@ function spawn(){
         snowball__animation1.appendChild(snowball1);
     };
     //double ball
-    for (i = snow2; i < 400; i++) {
+    for (i = snow2; i < 300; i++) {
         const snowball2 = document.createElement('div');
         snowball2.classList.add('snow2');
         snowball2.style.left = randomInteger(5, window.innerWidth - 50) + 'px';
@@ -72,7 +72,7 @@ function spawn(){
         snowball__animation2.appendChild(snowball2);
     };
     //thirst ball
-    for (i = snow3; i < 450; i++) {
+    for (i = snow3; i < 250; i++) {
         const snowball3 = document.createElement('div');
         snowball3.classList.add('snow3');
         snowball3.style.left = randomInteger(5, window.innerWidth - 50) + 'px';
@@ -82,5 +82,5 @@ function spawn(){
         snowball__animation3.appendChild(snowball3);
     };
 };
-//spawn();
+spawn();
 alert("апчихба") ;
